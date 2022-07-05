@@ -1,1 +1,36 @@
-## this is the contents page
+---
+output: html_document
+editor_options: 
+  chunk_output_type: console
+---
+```{r}
+library(hexSticker)
+library(tidyverse)
+
+
+```
+
+
+# Department of Psychology - Lancaster University
+
+This is the statistics content for the first- and second-year undergraduate psychology modules.
+
+## Statistics for Psychologists 1
+
+```{r}
+
+graph_121 <- ggplot(data.frame(x = c(-4, 4)), aes(x = x)) +
+        stat_function(fun = dnorm, geom = "area", alpha = .4, fill = "red") +
+  theme_void()
+
+s1 <- sticker(subplot = graph_121, package = "121_stats",
+        p_size=20, s_x=1, s_y=0.8, s_width=1.2, s_height=.8)
+
+
+s1
+
+```
+
+
+
+## Statistics for Psychologists 1
