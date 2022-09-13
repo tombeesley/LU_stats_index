@@ -65,15 +65,15 @@ PSYC122 <- sticker(subplot = graph_122,
 
 ```
 
-[Weeks 1-5](https://tombeesley.github.io/PSYC121_2021-22/index.html) 
+[Weeks 1-5](https://tombeesley.github.io/PSYC121_2021-22/index.html){target="_blank"}
 
-[Week 6-10](https://tombeesley.github.io/PSYC121_2021-22/week-6-visualising-data-and-binomial-tests.html)
+[Week 6-10](https://tombeesley.github.io/PSYC121_2021-22/week-6-visualising-data-and-binomial-tests.html){target="_blank"}
 
 ### Statistics for Psychologists 2 (PSYC122)
 
-[Weeks 1-5](https://mg78.github.io/lu_psyc122/) 
+[Weeks 1-5](https://mg78.github.io/lu_psyc122/){target="_blank"} 
 
-[Week 6-10](https://robayedavies.github.io/PSYC122-part-2/)
+[Week 6-10](https://robayedavies.github.io/PSYC122-part-2/){target="_blank"}
 
 ## Year 2
 
@@ -88,4 +88,4 @@ PSYC122 <- sticker(subplot = graph_122,
 
 [Weeks 1-5] **content to be added**
 
-[Week 6-10](https://amy-atkinson.github.io/PSYC234_Part2/)
+[Week 6-10](https://amy-atkinson.github.io/PSYC234_Part2/){target="_blank"}
