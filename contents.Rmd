@@ -3,10 +3,14 @@ output: html_document
 editor_options: 
   chunk_output_type: console
 ---
-```{r}
+```{r include=FALSE}
 library(hexSticker)
 library(tidyverse)
-
+library(showtext)
+## Loading Google fonts (http://www.google.com/fonts)
+font_add_google("Nunito")
+## Automatically use showtext to render text for future devices
+showtext_auto()
 
 ```
 
@@ -15,22 +19,73 @@ library(tidyverse)
 
 This is the statistics content for the first- and second-year undergraduate psychology modules.
 
-## Statistics for Psychologists 1
+## Year 1
 
-```{r}
+### Statistics for Psychologists 1 (PSYC121)
 
-graph_121 <- ggplot(data.frame(x = c(-4, 4)), aes(x = x)) +
-        stat_function(fun = dnorm, geom = "area", alpha = .4, fill = "red") +
+```{r warning=FALSE, include=FALSE}
+# PSYC121
+graph_121 <- 
+  ggplot(data.frame(x = c(-4, 4)), aes(x = x)) +
+  stat_function(fun = dnorm, geom = "area", alpha = 1, fill = "#fcfcfc") +
   theme_void()
 
-s1 <- sticker(subplot = graph_121, package = "121_stats",
-        p_size=20, s_x=1, s_y=0.8, s_width=1.2, s_height=.8)
+PSYC121 <- sticker(subplot = graph_121, 
+              p_family = "Nunito",
+              package = "PSYC121", p_size=30, p_color = "#fcfcfc", 
+              s_x=1, s_y=0.85, s_width=1.6, s_height=.8,
+              h_size = 6, h_fill = "#8f8d8d", h_color = "#820d03")
 
 
-s1
+#PSYC121
+
+# PSYC122
+
+x <-  sample(100,40)
+y <- x + sample(250,40)
+
+graph_122 <- 
+  ggplot(data = data.frame(x = x, y = y), aes(x = x, y = y)) +
+    geom_point(colour = "#820d03", size = 3) +
+  geom_smooth(method = "lm", colour = "#820d03", fill = "#fcfcfc") +
+  theme_void()
+
+PSYC122 <- sticker(subplot = graph_122, 
+              p_family = "Nunito",
+              package = "PSYC122", p_size=30, p_color = "#fcfcfc", 
+              s_x=1, s_y=0.8, s_width=1.2, s_height=.8,
+              h_size = 6, h_fill = "#8f8d8d", h_color = "#820d03")
+
+
+#PSYC122
+
+
+
+
 
 ```
 
+[Weeks 1-5](https://tombeesley.github.io/PSYC121_2021-22/index.html) 
+
+[Week 6-10](https://tombeesley.github.io/PSYC121_2021-22/week-6-visualising-data-and-binomial-tests.html)
+
+### Statistics for Psychologists 2 (PSYC122)
+
+[Weeks 1-5](https://mg78.github.io/lu_psyc122/) 
+
+[Week 6-10](https://robayedavies.github.io/PSYC122-part-2/)
+
+## Year 2
+
+### PSYC214 
 
 
-## Statistics for Psychologists 1
+[Weeks 1-5] content to be added
+
+[Week 6-10] content to be added
+
+### PSYC234
+
+[Weeks 1-5] **content to be added**
+
+[Week 6-10](https://amy-atkinson.github.io/PSYC234_Part2/)
