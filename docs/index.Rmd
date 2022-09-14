@@ -91,8 +91,13 @@ This is the statistics content for the first- and second-year undergraduate psyc
 [Week 6-10](https://amy-atkinson.github.io/PSYC234_Part2/){target="_blank"}
 
 ![pretty](rose.jpg){width=200px height=300px} ![pretty](rose.jpg){width=200px height=300px} ![pretty](rose.jpg){width=200px height=300px}
+
 ![old john](JT_1.jpg){width=200px height=300px} ![young john](JT_2.jpg){width=200px height=300px} ![old john](JT_1.jpg){width=200px height=300px}
+
 ![mid john](JT_3.jpg){width=200px height=300px} ![pretty](rose.jpg){width=200px height=300px} ![mid john](JT_3.jpg){width=200px height=300px}
+
 ![young](JT_2.jpg){width=200px height=300px} ![old john](JT_1.jpg){width=200px height=300px} ![young john](JT_2.jpg){width=200px height=300px}
+
 ![pretty](rose.jpg){width=200px height=300px} ![pretty](rose.jpg){width=200px height=300px} ![pretty](rose.jpg){width=200px height=300px}
+
 
