@@ -4,13 +4,13 @@ editor_options:
   chunk_output_type: console
 ---
 ```{r include=FALSE}
-library(hexSticker)
+#library(hexSticker)
 library(tidyverse)
-library(showtext)
-## Loading Google fonts (http://www.google.com/fonts)
-font_add_google("Nunito")
-## Automatically use showtext to render text for future devices
-showtext_auto()
+#library(showtext)
+# ## Loading Google fonts (http://www.google.com/fonts)
+# font_add_google("Nunito")
+# ## Automatically use showtext to render text for future devices
+# showtext_auto()
 
 ```
 
@@ -24,40 +24,40 @@ This is the statistics content for the first- and second-year undergraduate psyc
 ### Statistics for Psychologists 1 (PSYC121)
 
 ```{r warning=FALSE, include=FALSE}
-# PSYC121
-graph_121 <- 
-  ggplot(data.frame(x = c(-4, 4)), aes(x = x)) +
-  stat_function(fun = dnorm, geom = "area", alpha = 1, fill = "#fcfcfc") +
-  theme_void()
-
-PSYC121 <- sticker(subplot = graph_121, 
-              p_family = "Nunito",
-              package = "PSYC121", p_size=30, p_color = "#fcfcfc", 
-              s_x=1, s_y=0.85, s_width=1.6, s_height=.8,
-              h_size = 6, h_fill = "#8f8d8d", h_color = "#820d03")
-
-
-#PSYC121
-
-# PSYC122
-
-x <-  sample(100,40)
-y <- x + sample(250,40)
-
-graph_122 <- 
-  ggplot(data = data.frame(x = x, y = y), aes(x = x, y = y)) +
-    geom_point(colour = "#820d03", size = 3) +
-  geom_smooth(method = "lm", colour = "#820d03", fill = "#fcfcfc") +
-  theme_void()
-
-PSYC122 <- sticker(subplot = graph_122, 
-              p_family = "Nunito",
-              package = "PSYC122", p_size=30, p_color = "#fcfcfc", 
-              s_x=1, s_y=0.8, s_width=1.2, s_height=.8,
-              h_size = 6, h_fill = "#8f8d8d", h_color = "#820d03")
-
-
-#PSYC122
+# # PSYC121
+# graph_121 <- 
+#   ggplot(data.frame(x = c(-4, 4)), aes(x = x)) +
+#   stat_function(fun = dnorm, geom = "area", alpha = 1, fill = "#fcfcfc") +
+#   theme_void()
+# 
+# PSYC121 <- sticker(subplot = graph_121, 
+#               p_family = "Nunito",
+#               package = "PSYC121", p_size=30, p_color = "#fcfcfc", 
+#               s_x=1, s_y=0.85, s_width=1.6, s_height=.8,
+#               h_size = 6, h_fill = "#8f8d8d", h_color = "#820d03")
+# 
+# 
+# #PSYC121
+# 
+# # PSYC122
+# 
+# x <-  sample(100,40)
+# y <- x + sample(250,40)
+# 
+# graph_122 <- 
+#   ggplot(data = data.frame(x = x, y = y), aes(x = x, y = y)) +
+#     geom_point(colour = "#820d03", size = 3) +
+#   geom_smooth(method = "lm", colour = "#820d03", fill = "#fcfcfc") +
+#   theme_void()
+# 
+# PSYC122 <- sticker(subplot = graph_122, 
+#               p_family = "Nunito",
+#               package = "PSYC122", p_size=30, p_color = "#fcfcfc", 
+#               s_x=1, s_y=0.8, s_width=1.2, s_height=.8,
+#               h_size = 6, h_fill = "#8f8d8d", h_color = "#820d03")
+# 
+# 
+# #PSYC122
 
 
 
@@ -89,3 +89,10 @@ PSYC122 <- sticker(subplot = graph_122,
 [Weeks 1-5] **content to be added**
 
 [Week 6-10](https://amy-atkinson.github.io/PSYC234_Part2/){target="_blank"}
+
+![pretty](rose.jpg){width=200px height=300px} ![pretty](rose.jpg){width=200px height=300px} ![pretty](rose.jpg){width=200px height=300px}
+![old john](JT_1.jpg){width=200px height=300px} ![young john](JT_2.jpg){width=200px height=300px} ![old john](JT_1.jpg){width=200px height=300px}
+![mid john](JT_3.jpg){width=200px height=300px} ![pretty](rose.jpg){width=200px height=300px} ![mid john](JT_3.jpg){width=200px height=300px}
+![young](JT_2.jpg){width=200px height=300px} ![old john](JT_1.jpg){width=200px height=300px} ![young john](JT_2.jpg){width=200px height=300px}
+![pretty](rose.jpg){width=200px height=300px} ![pretty](rose.jpg){width=200px height=300px} ![pretty](rose.jpg){width=200px height=300px}
+
